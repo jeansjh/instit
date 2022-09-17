@@ -38,6 +38,9 @@ import {MenuModule} from 'primeng/menu';
 import {ScrollTopModule} from 'primeng/scrolltop';
 import {ScrollPanelModule} from 'primeng/scrollpanel';
 
+import {DialogModule} from 'primeng/dialog';
+import {ImageModule} from 'primeng/image';
+
 
 
 @NgModule({
@@ -74,7 +77,9 @@ import {ScrollPanelModule} from 'primeng/scrollpanel';
     MenuModule,
     ScrollTopModule,
     ScrollPanelModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DialogModule,
+    ImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

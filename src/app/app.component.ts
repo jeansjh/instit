@@ -10,7 +10,14 @@ import { PrimeNGConfig } from 'primeng/api';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  displayMaximizable!: boolean;
+  showMaximizableDialog() {
+    this.displayMaximizable = true;
+}
+
   public carouselData: ICarouselItem[] = CAROUSEL_DATA_ITEMS;
 
   title = 'proyectinstituto';
+
+
 }
