@@ -56,6 +56,9 @@
       margin: auto;
       display: flex;
       justify-content: space-between;
+      @media only screen and (min-width: 300px) and (max-width: 850px){
+        display: none;
+      }
       > i {
           opacity: 0.7;
           color: #fff;

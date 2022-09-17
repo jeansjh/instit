@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { ICarouselItem } from './shared/components/cariusel/Icarousel-item.metadata';
 import { CAROUSEL_DATA_ITEMS } from './shared/components/cariusel/carousel.const';
+import {MenuItem} from 'primeng/api';
+import { PrimeNGConfig } from 'primeng/api';
 
 @Component({
   selector: 'app-root',
