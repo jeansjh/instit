@@ -1,7 +1,7 @@
 'use strict';
 
 (function ($) {
-    setTimeout(function(){ 
+    setTimeout(function(){
   /*------------------
         Background Set
     --------------------*/
@@ -102,11 +102,11 @@
         autoHeight: false,
         autoplay: true,
     });
-    
-    
-        
+
+
+
     /*----------------------------------------------------
-     Language Flag js 
+     Language Flag js
     ----------------------------------------------------*/
     $(document).ready(function(e) {
     //no use
@@ -158,7 +158,7 @@
         $(".fw-size-choose .sc-item label, .pd-size-choose .sc-item label").removeClass('active');
         $(this).addClass('active');
     });
-    
+
     /*-------------------
 		Nice Select
     --------------------- */
@@ -179,7 +179,7 @@
 	});
 
     $('.product-pic-zoom').zoom();
-    
+
     /*-------------------
 		Quantity change
 	--------------------- */
